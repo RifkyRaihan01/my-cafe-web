@@ -1,0 +1,214 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.navbar {
+    position: fixed;
+    display: flex;
+    flex-direction: rows;
+    width: 100%;
+    height: 30px;
+    align-items: center;
+    background-color: white;
+    padding: 5px;
+    z-index: 3;
+}
+
+.logo h3 {
+    position: relative;
+    left: 10px;
+}
+
+.icon img {
+    position: relative;
+    left: 1400px;
+    cursor: pointer;
+}
+
+.list {
+    position: absolute;
+    background-color: white;
+    top: 30px;
+    width: 100%;
+    height: 250px;
+    left: 0;
+    display: none;
+}
+
+.list ul {
+    list-style: none;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.list ul li{
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.list ul li a:hover {
+    color: grey;
+}
+
+.list ul li a{
+    text-decoration: none;
+    color: black;
+}
+.show {
+    display: block;
+}
+
+.cover {
+    margin-top: -27px;
+    background-image: url("/content home/Cover.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.cover h1 {
+    color: white;
+    position: relative;
+    top: 190px;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.content2 {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.content2 img {
+    position: relative;
+    left: 60px;
+    /* top: 90px; */
+    height: 500px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+.content2 p{
+    font-size: 2.5rem;
+    position: relative;
+    /* top: 90px; */
+    left: 150px;
+    width: 600px;
+    text-align: left;
+}
+
+.menus {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.tittle {
+    position: absolute;
+    font-size: 2rem;
+    margin-top: -520px;
+}
+
+.menu {
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+#coffe {
+    background-image: url("/content home/Drink.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#food {
+    background-image: url("/content home/Food.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#dessert {
+    background-image: url("/content home/Dessert.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.menus h4 {
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    position: relative;
+    top: 300px;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    height: 100px;
+    padding: 10px;
+    line-height: 5px;
+}
+
+.footer h4{
+    font-size: 0.75rem;
+}
+
+.about{
+    margin-top: 0px;
+    margin-left: 10px;
+    font-size: 1rem;
+    position: relative;
+    top: 40px;
+    height: 1000px;
+}
+
+.about h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.about h2{
+    font-size: 1rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.imgabt {
+    top: 40px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.aboutus {
+    position: relative;
+    top: 40px;
+}
+
+
+.story {
+    position: relative;
+    top: 70px;
+}
+
+.philo {
+    position: relative;
+    top: 100px;
+
+}
+
+.space {
+    position: relative;
+    top: 130px;
+}
+
+.team {
+    position: relative;
+    top: 160px;
+}
